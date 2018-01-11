@@ -1,0 +1,158 @@
+* {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  display: inline;
+}
+
+li {
+  padding: 8px;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .87);
+  font-size: 13px;
+  display: inline-block;
+}
+
+#nav {
+    color: rgb(160, 159, 159);
+}
+
+.topleft {
+    margin-left: 8px;
+}
+
+.topleft a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.topright {
+    float: right;
+}
+
+.topRight a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.67);
+  }
+
+#signin {
+    font-weight: bold;
+    color: white !important;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #4387fd;
+    z-index: auto;
+}
+
+#logo {
+    margin: auto;
+    display: block;
+    padding-top: 160px;
+    width: 269px;
+    height: 96px;
+}
+
+input[type="text"] {
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 40px;
+    margin-top: 50px;    
+}
+
+  input[type="text"]:hover {
+   border: 2px;
+   border-color: grey;
+   box-shadow: 2px 2px 5px grey;
+
+
+  }
+
+#mic {
+    position: absolute;
+    top: 41.8%;
+    left: 68%;
+
+}
+
+#appIcon {
+    height: 16px;
+    color: rgb(102, 99, 99)
+    vertical-align: middle;
+    opacity: 0.6;
+    padding-right: 5px;
+}
+
+#appIcon:hover {
+    color: rgb(15, 15, 15);
+    opacity: 1.0;
+}
+
+#container {
+    margin: 0 auto;
+    text-align: center;
+    width: 580px;
+
+}
+
+.button {
+    text-align: center;
+}
+
+
+input[type="submit"] {
+    font-weight: bold;
+    font-size: 12px;
+    box-sizing: 40px;
+    padding: 10px;
+    background-color: #f3f1f1;
+    color: #696666;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    outline: none;
+    border-radius: 2px;
+  }
+
+input[type="submit"]:hover {
+    color: black;
+    border: 1px solid #b4b6ba;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(235, 229, 229);
+    height: 40px;
+}
+  .bottomleft {
+    margin-left: 8px;
+    float: left;
+  }
+
+  .bottomleft a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.67);
+  }
+
+  .bottomright {
+    float: right;
+  }
+
+  .bottomright a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.67);
+  }
